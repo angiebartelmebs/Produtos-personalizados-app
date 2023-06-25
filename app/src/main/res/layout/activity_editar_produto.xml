@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="28dp"
-        android:text="Adicionar Produto"
+        android:text="Editar Produto"
         app:fontFamily="@font/roboto_mono"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -107,12 +107,32 @@
         style="@style/Widget.AppCompat.Button.Small"
         android:layout_width="97dp"
         android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginEnd="56dp"
+        android:onClick="salvarInformacoes"
         android:text="Salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <EditText
+        android:id="@+id/editTextValor"
+        android:layout_width="94dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextCor"
-        android:onClick="salvarInformacoes"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:text="Valor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCor" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

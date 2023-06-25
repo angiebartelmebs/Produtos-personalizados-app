@@ -32,6 +32,7 @@ public class AddProdutoActivity extends AppCompatActivity {
                 EditText editTextNome = findViewById(R.id.editTextNome);
                 EditText editTextDescricao = findViewById(R.id.editTextdescricao);
                 EditText editTexTam = findViewById(R.id.editTexTam);
+                EditText editTexTam = findViewById(R.id.editTexTam);
                 EditText editTextCor= findViewById(R.id.editTextCor);
                 String nome = editTextNome.getText().toString();
                 String descricao = editTextDescricao.getText().toString();
@@ -39,7 +40,7 @@ public class AddProdutoActivity extends AppCompatActivity {
                 String cor = editTextCor.getText().toString();
 
                 // Exibir uma mensagem de sucesso utilizando o Toast
-                Toast.makeText(AddProdutoActivity.this, "Informações salvas com sucesso!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(AddProdutoActivity.this, "Produto salvo com sucesso!", Toast.LENGTH_SHORT).show();
 
 
             }
