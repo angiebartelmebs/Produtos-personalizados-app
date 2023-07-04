@@ -2,9 +2,6 @@ package com.example.produtos_personalizados_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -29,15 +26,17 @@ public class AddProdutoActivity extends AppCompatActivity {
                 // Lógica para salvar as informações aqui
 
                 //Salvar o conteúdo do formulario
-                EditText editTextNome = findViewById(R.id.editTextNome);
-                EditText editTextDescricao = findViewById(R.id.editTextdescricao);
-                EditText editTexTam = findViewById(R.id.editTexTam);
-                EditText editTexTam = findViewById(R.id.editTexTam);
-                EditText editTextCor= findViewById(R.id.editTextCor);
-                String nome = editTextNome.getText().toString();
-                String descricao = editTextDescricao.getText().toString();
-                String tam = editTexTam.getText().toString();
-                String cor = editTextCor.getText().toString();
+                EditText addTextNome = findViewById(R.id.addTextNome);
+                EditText addTextDescricao = findViewById(R.id.addTextdescricao);
+                EditText addtTexTam = findViewById(R.id.addTexTam);
+                EditText addTextCor= findViewById(R.id.addTextCor);
+                EditText addTextValor= findViewById(R.id.addTextValor);
+
+                String Nome = addTextNome.getText().toString();
+                String Descricao = addTextDescricao.getText().toString();
+                String Tam = addtTexTam.getText().toString();
+                String Cor = addTextCor.getText().toString();
+                String Valor = addTextValor.getText().toString();
 
                 // Exibir uma mensagem de sucesso utilizando o Toast
                 Toast.makeText(AddProdutoActivity.this, "Produto salvo com sucesso!", Toast.LENGTH_SHORT).show();

@@ -19,7 +19,7 @@
         app:textAllCaps="false" />
 
     <EditText
-        android:id="@+id/editTextNome"
+        android:id="@+id/addTextNome"
         android:layout_width="231dp"
         android:layout_height="71dp"
         android:layout_marginStart="40dp"
@@ -30,7 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextCor"
+        android:id="@+id/addTextCor"
         android:layout_width="240dp"
         android:layout_height="61dp"
         android:layout_marginStart="40dp"
@@ -48,7 +48,7 @@
         android:layout_marginTop="12dp"
         android:text="Tamanhos"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextdescricao" />
+        app:layout_constraintTop_toBottomOf="@+id/addTextdescricao" />
 
     <TextView
         android:id="@+id/textView5"
@@ -58,10 +58,10 @@
         android:layout_marginTop="4dp"
         android:text="Cor"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTexTam" />
+        app:layout_constraintTop_toBottomOf="@+id/addTexTam" />
 
     <EditText
-        android:id="@+id/editTexTam"
+        android:id="@+id/addTexTam"
         android:layout_width="281dp"
         android:layout_height="67dp"
         android:layout_marginStart="40dp"
@@ -89,10 +89,10 @@
         android:layout_marginTop="20dp"
         android:text="Descrição"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNome" />
+        app:layout_constraintTop_toBottomOf="@+id/addTextNome" />
 
     <EditText
-        android:id="@+id/editTextdescricao"
+        android:id="@+id/addTextdescricao"
         android:layout_width="323dp"
         android:layout_height="70dp"
         android:layout_marginStart="40dp"
@@ -114,7 +114,7 @@
         tools:layout_editor_absoluteY="551dp" />
 
     <EditText
-        android:id="@+id/editTextValor"
+        android:id="@+id/addTextValor"
         android:layout_width="94dp"
         android:layout_height="55dp"
         android:layout_marginStart="40dp"
@@ -132,7 +132,7 @@
         android:layout_marginTop="16dp"
         android:text="Valor"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextCor" />
+        app:layout_constraintTop_toBottomOf="@+id/addTextCor" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
